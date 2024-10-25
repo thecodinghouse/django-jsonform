@@ -104,7 +104,7 @@ class JSONFormWidget(forms.Widget):
     def media(self):
         css = {
             'all': [
-                'django_jsonform/style.css',
+                'django_jsonform/new_style.css',
             ]
         }
         js = [
